@@ -18,21 +18,21 @@ A simple React app that shows random jokes to make your mood light and happy! �
 
 ---
 
-## 📂 Project Setup  
+### 📂 Project Setup  
 
-### 1️⃣ Clone this repo  
+## 1️⃣ Clone this repo  
 ```bash
 git clone <repo-url>
 cd random-joke-generator
 
 
-2️⃣ Install dependencies
+## 2️⃣ Install dependencies
 npm install
 
-3️⃣ Run locally
+## 3️⃣ Run locally
 npm start
 
-4️⃣ Build for production
+## 4️⃣ Build for production
 npm run build
 
 📸 Preview
