@@ -1,63 +1,88 @@
-# 🎭 Random Joke Generator  
+# Random Joke Generator
 
-A simple React app that shows random jokes to make your mood light and happy! 😁  
+A polished React + Vite project that fetches and displays random jokes from a live public API.
 
----
+![Vite](https://img.shields.io/badge/Vite-7.1-blue)
+![React](https://img.shields.io/badge/React-19-149eca)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-## 🚀 Features  
-- ⚡ Generates random jokes instantly  
-- 🎨 Clean and simple UI  
-- ⚛️ Built with **React + Hooks**  
+## Overview
 
----
+Random Joke Generator is a lightweight frontend app built to practice React state management, API handling, and clean component structure.
 
-## 🛠️ Tech Stack  
-- React (useState, useEffect)  
-- CSS for styling  
-- Joke API (like [official-joke-api](https://github.com/15Dkatz/official_joke_api))  
+## Features
 
----
+- Fetches a new joke instantly using a button click
+- Displays both setup and punchline clearly
+- Uses functional React components with hooks
+- Simple and responsive interface
 
-### 📂 Project Setup  
+## Tech Stack
 
-## 1️⃣ Clone this repo  
-```bash
-git clone <repo-url>
-cd random-joke-generator
+- React 19
+- Vite 7
+- JavaScript (ES Modules)
+- CSS
+- Formik (included in project dependencies)
 
+## API Used
 
-## 2️⃣ Install dependencies
-npm install
+- Endpoint: https://official-joke-api.appspot.com/random_joke
 
-## 3️⃣ Run locally
-npm start
+## Getting Started
 
-## 4️⃣ Build for production
-npm run build
+1. Clone the repository
 
-📸 Preview
+	git clone <your-repo-url>
 
-Add screenshot/gif of your app here
+2. Open the project folder
 
-💡 Future Improvements
+	cd Random-Joke-Generator-Using-ReactJs-main
 
-📝 Add “copy joke” button
+3. Install dependencies
 
-📚 Add categories (programming jokes, dad jokes, etc.)
+	npm install
 
-🌙 Dark mode support
+4. Start development server
 
-🤝 Contributing
+	npm run dev
 
-Pull requests are welcome!
+5. Create production build
 
-📜 License
+	npm run build
 
-This project is MIT Licensed.
+6. Preview production build
 
+	npm run preview
 
+## Screenshot - 11
 
-🚀 Bas repo ke root me `README.md` banao aur ye paste kar de.  
+Add your screenshot file and keep its name as 11 for easy reference.
 
-Chaahta hai mai tere liye ek **cool ASCII logo / banner** bhi bana du README ke top pe?
+Suggested file path:
+
+public/11.png
+
+Markdown image usage:
+
+![11](public/11.png)
+
+## Project Structure
+
+src/
+- App.jsx
+- Joker.jsx
+- main.jsx
+- App.css
+- index.css
+
+## Future Improvements
+
+- Add loading and error states for API calls
+- Add joke categories and filters
+- Add copy-to-clipboard and share buttons
+
+## License
+
+This project is for learning and practice purposes.
 
